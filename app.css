@@ -1,0 +1,467 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/* head_top */
+
+
+.header{
+}
+.header_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{   
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+
+.contant_us{
+    background-color: #0050c8;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius:0.5rem;
+    transition: 0.5s all;
+}
+.contant_us:hover{
+    background-color: #033d94;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+.menu_item:hover{
+    background-color: #ffff0074;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.menu_link{
+    text-decoration: none;
+    color: #081D43;
+    padding: 0 1rem;
+    font-size: 18px;
+}
+.nav_logo{
+    margin-right: 3rem;
+}
+.nav_logo_image{
+    max-width: 400px;
+    max-height: 250px;
+}
+
+
+/* --------------------------head__bottom------------------------------ */
+
+
+.header_bottom{
+    margin-top: 2rem;
+}
+.contant{
+    display: flex;
+    align-items: center;
+}
+.contant_right{
+    flex-basis: 50%;
+}
+.contant_left{
+    flex-basis: 50%;
+}
+
+
+
+.contant_img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+
+.header_contant_wraper{
+    max-width: 29rem;
+    justify-content: start;
+}
+.header_contant_titl{
+    color: #dac315;
+}
+.contant_txt{
+    color: #6882b6;
+    line-height: 2rem;
+}
+
+
+
+.header_contant_links{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.header_contant_link:nth-child(1){
+    background-color:#0097A7 ;
+    transition: 0.5s all;
+}
+.header_contant_link:nth-child(1):hover{
+    background-color: #085ca1;
+}
+.header_contant_link:nth-child(2){
+    background-color:#C2185B;
+    transition: 0.5s all;
+}
+.header_contant_link:nth-child(2):hover{
+    background-color:#730531;
+}
+.header_contant_link{
+    display: block;
+    background-color: #0050c8;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius:0.5rem;
+    margin-left: 0.8rem;
+    width: 10rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* ----------------------------------MAIN------------------------------ */
+main{
+    background-image: linear-gradient(180deg,white,#a27e44,#a27e44,#a27e44,white);
+}
+.main{
+    padding-bottom: 4rem;
+}
+.liberary{
+    display: flex;
+    flex-direction: column;
+}
+.row_book_one{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin: 7rem 3rem;
+}
+.titl_book{
+    margin-top: 300px;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #dcaa04;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s all;
+    box-shadow: 0px 0px 20px;
+}
+.titl_book2{
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #dcaa04;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s all;
+    box-shadow: 0px 0px 20px;
+}
+.show_all{
+    text-decoration: none;
+    color: #fff;
+}
+.book_container{
+    width: 100%;
+    height:400px ;
+    box-shadow: 0px 0px 29px;
+    background-image: linear-gradient(9deg,#9d6f4d,#fff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5rem;
+    transition: 1s all;
+}
+.book_img_container{
+    width: 200px;
+    height: 287px;
+}
+.book_img{
+    width: 200px;
+    max-height: 315px;
+    padding-bottom: 2rem;
+}
+.book_name{
+    margin-bottom: 0.8rem;
+    width: 200px;
+    border-radius: 15px;
+    height: 32px;
+    background-color: #dcaa04;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px;
+    transition: 1s all ease 0.2s ;
+}
+.book_footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book_btn{
+    width: 100px;
+    border-radius: 15px;
+    height: 32px;
+    margin-left: 20px;
+    background-color: #dcaa04;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px;
+    transition: 1s all ease 0.2s;
+}
+.link_buy{
+    text-decoration: none;
+    color: #fff;
+}
+.book_price{
+    width: 100px;
+    border-radius: 15px;
+    height: 32px;
+    margin-right: 20px;
+    background-color: #e2b522;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px;
+    transition: 1s all ease 0.2s;
+}
+.txt_price{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.book_container:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 100px;
+    cursor: pointer;
+    
+}
+
+.book_btn:hover{
+    background-color: #8d6d05;
+}
+.book_price:hover{
+    background-color: #8d6d05;
+}
+.book_name:hover{
+    background-color: #8d6d05;
+}
+
+.show_all:hover{
+    width: 140px;
+    background-color: #9f7a00;
+    border-radius: 4px;
+    text-align: center; 
+}
+
+
+
+
+
+/* ----------------------------------FOOTER---------------------------- */
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.footer_titl{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.footer_contant_us{
+    width: 100%;
+    margin: auto 0;
+}
+.title_footer{
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+.subtitl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link_subtitl{
+    display: flex;
+    align-items: center;
+    flex-direction:row-reverse ;
+}
+.instagram_icon{
+    width: 50px;
+    height: 50px;
+}
+
+.rubika_icon{
+    width: 50px;
+    height: 50px;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+
+/* ----------------------------------RESPANCIV------------------------- */
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .scrool{
+
+        height:550px;
+        width:100%;
+        overflow-y:hidden;
+        overflow-x:scroll;
+    }
+    .row_book_one{
+        /* flex-wrap: wrap; */
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .contant_us{
+        display: none;
+    }
+    .contant{
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+    .header_contant_wraper{
+        width: 100%;
+    }
+    .header_top{
+        justify-content: space-around;
+    }
+    .header_bottom{
+        margin-top: 0rem;
+    }
+    .nav_logo_image{
+        min-width: 200px;
+        max-height: 100px;
+    }
+    .book_container{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .nav_logo_image{
+        min-width: 200px;
+        max-height: 100px;
+    }
+    .row_book_one{
+        margin: 70px 13px 91px auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .icon{
+        display: block;
+        cursor: pointer;
+    }
+    .menu{
+        position: fixed;
+        top: 0;
+        left: -256px;
+        bottom: 0;
+        width: 16rem;
+        background-color: #8ce8e0;
+        flex-direction: column;
+        transition: 0.5s all;
+    }
+    .menu_item{
+        width: 200px;
+        height: 60px;
+        margin: 1rem .5rem;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        transition: 0.5s all;
+    }
+
+    .menu_link{
+        color: #1e2327;
+        display: block;
+        font-size: 20px;
+    }
+    .header_contant_wraper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header_contant_links{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header_contant_link{
+        margin-bottom: 0.3rem;
+    }
+    .book_container{
+        width: 70%;
+    }
+
+    .book_container:hover{
+        transform: scale(1.1);
+        box-shadow: 0px 0px 100px;   
+    }
+
+}
+@media only screen and (max-width: 425px) {
+    .container{
+        min-width: 100%;
+    }
+    .contant_img{
+        max-width:300px ;
+        min-height: 300px;
+    }
+}
